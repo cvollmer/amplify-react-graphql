@@ -16,7 +16,7 @@ function App({ signOut }) {
         <Image src={logo} className='app-logo' alt='React' />
         <Heading level={1}>We now have Auth!</Heading>
       </Card>
-      <Button onClick={signOut}></Button>
+      <Button onClick={signOut}>Signout</Button>
     </View>
   );
 }
